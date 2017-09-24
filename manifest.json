@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "GitHubEx",
+  "version": "1.0",
+
+  "description": "Add some convenience tools to GitHub",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.github.com/*"],
+      "js": ["githubex.user.js"]
+    }
+  ]
+}
